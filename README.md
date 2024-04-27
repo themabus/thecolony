@@ -2,12 +2,12 @@ I just rebuilt binaries for DOS16 and DOS32 with updated gfx library.
 There is a wider selection of video adapters now but some might not work. Also some higher
 resolutions but math gets wonky on those. 
 Pictures are a bit beat up on non-monochrome modes.
-Audio lib was missing from the original release and I didn't decompile it
+Audio lib was missing from the original release and I didn't decompile it,
 so there is no audio. Extract .7z in folder with the original game, e.g. "Extras Colony PC".
 The original exe is "COL.XEX", btw, rename it to .exe and launch after "METAWNDO.EXE" TSR.
 New "COLONY16" & "COLONY32" exes don't require this driver anymore. I didn't do page flipping 
-and didn't implement delta time, so DOS16 is rather slow but DOS32 has timing issues.
-For instance planet surface segment was basically unplayable, so I wired it to just
+and didn't implement fps limit or delta time, so DOS16 is rather slow but DOS32 has timing issues.
+For instance the planetary surface segment was basically unplayable, so I wired it to just
 teleport you to the colony station. Also disabled all the security checks.<br>
 ![bw](./Screenshots/TheColonyMono.gif)<br>
 ![16](./Screenshots/TheColony16.gif)![Su](./Screenshots/TheColonySetup.png)<br>
