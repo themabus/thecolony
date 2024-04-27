@@ -5,7 +5,8 @@ Pictures are a bit beat up on non-monochrome modes.
 Audio lib was missing from the original release and I didn't decompile it
 so there is no audio. Extract .7z in folder with the original game, e.g. "Extras Colony PC".
 The original exe is "COL.XEX", btw, rename it to .exe and launch after "METAWNDO.EXE" TSR.
-New "COLONY16" & "COLONY32" exes don't require this TSR anymore.
+New "COLONY16" & "COLONY32" exes don't require this TSR anymore.<br>
+![bw](./Screenshots/TheColonyMono.gif)
 --------------------------------------------------------------------------------
 
 # The Colony
