@@ -1,3 +1,13 @@
+I just rebuilt binaries for DOS16 and DOS32 with updated gfx library.
+There is a wider selection of video adapters now but some might not work. Also some higher
+resolutions but math gets wonky on those. 
+Pictures are a bit beat up on non-monochrome modes.
+Audio lib was missing from the original release and I didn't decompile it
+so there is no audio. Extract .7z in folder with the original game, e.g. "Extras Colony PC".
+The original exe is "COL.XEX", btw, rename it to .exe and launch after "METAWNDO.EXE" TSR.
+New "COLONY16" & "COLONY32" exes don't require this TSR anymore.
+--------------------------------------------------------------------------------
+
 # The Colony
 
 ![The Box](./Screenshots/The-Colony-Box.webp)
