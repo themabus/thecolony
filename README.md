@@ -5,7 +5,10 @@ Pictures are a bit beat up on non-monochrome modes.
 Audio lib was missing from the original release and I didn't decompile it
 so there is no audio. Extract .7z in folder with the original game, e.g. "Extras Colony PC".
 The original exe is "COL.XEX", btw, rename it to .exe and launch after "METAWNDO.EXE" TSR.
-New "COLONY16" & "COLONY32" exes don't require this TSR anymore.<br>
+New "COLONY16" & "COLONY32" exes don't require this driver anymore. I didn't do page flipping 
+and didn't implement delta time, so DOS16 is rather slow but DOS32 has timing issues.
+For instance planet surface segment was basically unplayable, so I wired it to just
+teleport you to the colony station. Also disabled all the security checks.<br>
 ![bw](./Screenshots/TheColonyMono.gif)<br>
 ![16](./Screenshots/TheColony16.gif)![Su](./Screenshots/TheColonySetup.png)<br>
 --------------------------------------------------------------------------------
